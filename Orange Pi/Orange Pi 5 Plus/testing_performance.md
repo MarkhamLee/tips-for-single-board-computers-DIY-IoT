@@ -1,0 +1,6 @@
+## Notes from performance testing   
+
+
+* The biggest thing holding this device back is that the best os for it comes from a one-man band/a community distro. Having an official Ubuntu release with a full enginering team backing and better support for the GPIO pins would make this device an absolute beast. But until then, I got the best result with [Joshua Riek's Ubuntu image for Rockchip 3588 devices](https://github.com/Joshua-Riek/ubuntu-rockchip). In particular YouTube videos play properly, no lag while using the desktop, etc. I don't use the GPIO pins so this device works great for me as an ARM dev machine. 
+* **NVME Speeds:** Using Ubuntu's disk benchmarking tool and a Sk Hynix P31 NVME I was able to get speeds of around 3.4-3.5 GB/s, which is faster than the NVME in my Beelink Mini S device running a Celeron Processor, which barely gets around 1 GB/s. 
+* Geekbench 6 results were 843 single core and 2969 multi-core, the latter score almost as fast as my Beelink Mini S with a N95 processor. 
